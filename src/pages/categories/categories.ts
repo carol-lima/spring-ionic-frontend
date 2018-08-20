@@ -35,7 +35,7 @@ export class CategoriesPage {
         this.items = response;
       },
       error => {
-        
+        // console.log(error);
       });
   }
 }
